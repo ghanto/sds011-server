@@ -1,8 +1,9 @@
 package config
 
-type config struct {
+// Config structure of config
+type Config struct {
 	DatabaseDSN string `env:"DATABASE_DSN"`
 }
 
 // ApplicationConfig configuration of the app
-var ApplicationConfig = config{}
+var ApplicationConfig = Config{}

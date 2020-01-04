@@ -1,4 +1,3 @@
-BEGIN;
 CREATE TABLE smog_entries (
   id          serial    PRIMARY KEY,
   pm10        numeric   NOT NULL,
@@ -7,4 +6,3 @@ CREATE TABLE smog_entries (
   humidity    numeric   NOT NULL,
   created_at  timestamp NOT NULL
 );
-COMMIT;
